@@ -1,0 +1,13 @@
+# Ignore test directories and their contents
+**/test/*
+!**/test/.gitkeep
+
+# Ignore test files
+*.test.js
+*.test.ts
+*.spec.js 
+*.spec.ts
+
+# Test coverage output
+coverage/
+.nyc_output/
